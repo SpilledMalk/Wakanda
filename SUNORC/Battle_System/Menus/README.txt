@@ -1,0 +1,1 @@
+All code related to our battle menus should go into this directory.
