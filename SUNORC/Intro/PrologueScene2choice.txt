@@ -1,0 +1,56 @@
+*The Bullies corner you against the wall, and start to close in.*
+What do you do?
+OS
+A) Scream at the top of your lungs
+B) Preemptively attack the closest bully in sight
+C) Try to break through the wall of bullies
+OE
+I
+
+
+
+065
+*You begin to bellow at the top of your lungs*
+You: "AUUUUUUUUUGHAUUUUUGGHUUUAAAAAAAUGHAAAAAAAAAAAAAAAAAAAUGH!!!!!!!!"
+*The bullies are unfazed.*
+Quantum asks: "You good, bud?"
+OS
+A) "Yeah... I'm good."
+B) Scream again, for good measure!
+OE
+RB
+
+
+066
+*You come out the gates swinging at Quantum!*
+*You punch him in the shoulder, but it seems like you did more damage to your own hand than to his shoulder.*
+*You yelp in agony...*
+Quantum says: "You good, bud?"
+OS
+A) "Yeah... I'm good."
+B) Run at him again! Maybe it'll work this time.
+OE
+RB
+
+
+
+067
+*You see a jet black, hairy spider crawling up the wall behind the gang of bullies.*
+You point it out urgently: "Holy shit! Is that a tarantula on the wall behind us? Holy SHIIIIIIIIIIIT!"
+Carl: "What do you take us for, Libby Arts or Poly Sci majors? We're not autistic, man."
+Quantum raises an eyebrow at you and says: "You good, bud?"
+OS
+A) "Yeah... I'm good."
+B) Try the spider trick again.
+OE
+RB
+
+
+06565
+E
+
+06665
+E
+
+06765
+E

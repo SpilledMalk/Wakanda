@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SUNORC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFromFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFromChoiceFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1\DescriptionPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1\ListingsPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1\PageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1\Act1WeaponPick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReadFromFile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActPlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadFromChoiceFile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1\ConfirmationPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1\DescriptionPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1\ListingsPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1\Page.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1\PageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1\Act1WeaponPick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PrologueScene1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="save.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="PrologueScene4choice.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="PrologueScene2choice.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="PrologueScene3.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Act1\Blaster.txt" />
+    <Text Include="Act1\ConfirmGauntlet.txt" />
+    <Text Include="Act1\ConfirmHandCannon.txt" />
+    <Text Include="Act1\ConfirmSlingBlade.txt" />
+    <Text Include="Act1\Gauntlet.txt" />
+    <Text Include="Act1\ListingWindow.txt" />
+    <Text Include="Act1\Sling Blade.txt" />
+  </ItemGroup>
+</Project>

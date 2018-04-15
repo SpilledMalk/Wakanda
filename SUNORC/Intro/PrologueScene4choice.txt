@@ -1,0 +1,49 @@
+
+*You wake up to blaring bass rifts*
+You: "Where... am I?"
+*On the ancient 4k tv, the theme song to Seinfeld is playing*
+You: "And why is a 1 thosand year old show playing on a 980 year old tv?"
+*A nurse walks in*
+Nurse: "You're finally awake!"
+You: "How long was I out?"
+Nurse: "About thirty minutes... How are you feeling chico?"
+*You glare at her*
+You: "Muy bien, nurse."
+Nurse: "Bien!"
+*The nurse pulls out a clipboard*
+Nurse: "Well, we need some personal information before we can proceed any further with your treatment. First what's your first name?"
+LI
+
+0
+Nurse: "Perfect. Oh, and I have your last name here as well because you're already in the system."
+Nurse: "Just to confirm, your name is: "REPLACE"..."
+Nurse: "Naut, "REPLACE", right?"
+OS
+A) Yes
+B) No
+OE
+I
+
+065
+Nurse: "Okay... so your entire body is one big bruise, and you have a LOT of internal bleeding."
+Nurse: "BUT! Nothing that a day or two in the ol' "Saludar" won't fix :)"
+You: "What? The salad bar?"
+*Nurse chuckles and walks out of the room*
+You: "Wait, where do I go to the bathroom? Is there one in the salad bar?"
+E
+
+
+066
+Nurse: "Then why would you say that that's your name? Ugh, you milenienienials can't even do the simplest things."
+*The nurse hands you the clipboard and a pen*
+Nurse: "Write it down yourself, and I'll stop by in a couple hours to check on your progress. Not on your health, but on the writing task I just gave you."
+SK
+
+066
+Patient Name (Below):
+LI
+
+066
+*You wrote your name in pen, so you can't erase it. hopefully you spelled it right REPLACE, because you're stuck with it for the rest of the game now*
+*To be continued...*
+E
