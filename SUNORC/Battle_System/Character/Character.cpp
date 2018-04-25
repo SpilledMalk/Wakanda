@@ -41,13 +41,18 @@ Item::Item(const Item& inItem)
 {
 }
 
-Move::Move(string Name, int Cooldown, string Effect)
-	: Name(Name), Cooldown(Cooldown), Effect(Effect)
+Move::Move(string Name, int Cooldown, double damageMod, string Effect)
+	: Name(Name), currentCooldown(0), maxCooldown(Cooldown), damageModifier(damageMod),Effect(Effect)
 {
 }
 
 Move::Move(const Move& inMove)
-	: Name(inMove.Name), Cooldown(inMove.Cooldown), Effect(inMove.Effect)
+	: Name(inMove.Name), currentCooldown(0), maxCooldown(inMove.maxCooldown), damageModifier(inMove.damageModifier), Effect(inMove.Effect)
+{
+}
+
+Move::Move()
+	:Name("Struggle"), currentCooldown(0), maxCooldown(0), damageModifier(0.0), Effect("")
 {
 }
 
@@ -57,7 +62,7 @@ Character::Character(		// constructor
 	Weapon Weapon,
 	CounterBox Counters,
 	map<int, Move> Moves,
-	map<int, Item> Items,
+	vector<Item> Items,
 	string StatusEffect,
 	Point Loc,
 	char Symbol,
@@ -78,7 +83,18 @@ void Character::SetCharWeapon(Weapon newWeapon){ CharWeapon = newWeapon; }
 // Character Move List and Item List
 map<int, Move> Character::GetMoveList(){ return MoveList; }
 void Character::SetMoveList(map<int, Move> newMoveList) { MoveList = newMoveList; }
-map<int, Item> Character::GetItemList(){ return ItemList; }
+vector<Item> Character::GetItemList() { return ItemList; }
+void Character::AddNewItem(Item newItem) { ItemList.push_back(newItem); }
+void Character::ChangeItemCount(int entry, int amount)
+{
+	ItemList[entry].Quantity += amount;
+	if (ItemList[entry].Quantity <= 0)
+		ItemList.erase(ItemList.begin() + entry);
+}
+
+// Character Affinity
+string Character::GetCharAffinity() { return CharAffinity; }
+void Character::SetCharAffinity(string newAffinity) { CharAffinity = newAffinity; }
 
 // Character Status Effect
 string Character::GetCharStatus(){ return CharStatus; }
@@ -86,6 +102,8 @@ void Character::SetCharStatus(string newStatus) { CharStatus = newStatus; }
 
 // Move Counter and Action Counter
 CounterBox Character::GetCounterBox(){ return Counters; }
+void Character::SetMoveCounter(int newCounter) { Counters.MoveCount = newCounter; }
+void Character::SetActionCounter(int newCounter) { Counters.ActionCount = newCounter; }
 void Character::ResetCounters()
 { 
 	Counters.MoveCount = Counters.MaxMoveCount;
@@ -100,3 +118,12 @@ void Character::SetCharSymbol(char newCharSymbol) { CharSymbol = newCharSymbol; 
 
 // Character Stats
 CharStats Character::GetCharStats() { return Stats; }
+
+void Character::SetCharStats(int newAtk, int newDef, int newSpd, int newCurHP, int newMaxHP)
+{
+	Stats.Atk = newAtk;
+	Stats.Def = newDef;
+	Stats.Spd = newSpd;
+	Stats.CurHP = newCurHP;
+	Stats.MaxHP = newMaxHP;
+}
